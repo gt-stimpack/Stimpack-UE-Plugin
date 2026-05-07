@@ -1,7 +1,6 @@
 # Stimpack: Unreal Engine Plugin & Game Environments
 
-[![Paper](https://img.shields.io/badge/Paper-PDF-red)](https://arxiv.org/pdf/2412.19446.pdf)
-[![DOI](https://zenodo.org/badge/DOI/10.xxxx/xxxx.svg)](https://doi.org/10.xxxx/xxxx)
+[![Paper](https://img.shields.io/badge/Paper-PDF-red)](https://www.usenix.org/system/files/nsdi26-heo.pdf)
 [![Unreal Engine](https://img.shields.io/badge/Unreal_Engine-5.0.3-0E1128?logo=unrealengine&logoColor=white)](https://www.unrealengine.com/)
 [![C++](https://img.shields.io/badge/Language-C++-00599C?logo=cplusplus&logoColor=white)](https://isocpp.org/)
 [![ZeroMQ](https://img.shields.io/badge/IPC-ZeroMQ-DF0000?logo=zeromq&logoColor=white)](https://zeromq.org/)
@@ -96,11 +95,17 @@ Once packaged, ensure the `userinfo.txt` (and `emul.txt` if needed) are present 
 
 ### Citation
 ```bibtex
-@inproceedings{heo2026stimpack,
-  title={Stimpack: An Adaptive Rendering Optimization System for Scalable Cloud Gaming},
-  author={Heo, Jin and Wang, Vic and Bhardwaj, Ketan and Gavrilovska, Ada},
-  booktitle={23rd USENIX Symposium on Networked Systems Design and Implementation (NSDI 26)},
-  year={2026}
+@inproceedings {316628,
+	author = {Jin Heo and Vic Wang and Ketan Bhardwaj and Ada Gavrilovska},
+	title = {Stimpack: An Adaptive Rendering Optimization System for Scalable Cloud Gaming},
+	booktitle = {23rd USENIX Symposium on Networked Systems Design and Implementation (NSDI 26)},
+	year = {2026},
+	isbn = {978-1-939133-54-0},
+	address = {Renton, WA},
+	pages = {397--414},
+	url = {https://www.usenix.org/conference/nsdi26/presentation/heo},
+	publisher = {USENIX Association},
+	month = may
 }
 ```
 
